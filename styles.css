@@ -99,3 +99,11 @@ body{
   .nav ul{display:none; position:absolute; right:1rem; top:64px; background:var(--card); padding:1rem; border-radius:12px; box-shadow: 0 10px 30px rgba(0,0,0,.3)}
   .nav ul.show{display:flex; flex-direction:column}
 }
+
+.logo img.avatar{
+  width: 42px;
+  height: 42px;
+  border-radius: 10px;     /* matches the square logo shape */
+  object-fit: cover;       /* crops to fill the square */
+  display: block;
+}

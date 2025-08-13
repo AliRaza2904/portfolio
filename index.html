@@ -3,22 +3,27 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Ali Raza — QA Engineer Portfolio</title>
-  <meta name="description" content="Ali Raza — Software Tester (QA Engineer). Manual & automated testing (Playwright, Cypress), API testing, CI/CD, Agile. Berlin, Germany." />
+  <title>ALI RAZA — QA Engineer Portfolio</title>
+  <meta name="description" content="Ali Raza — Software Tester (QA Engineer). Manual & automated testing (Playwright, API testing, CI/CD, Agile). Berlin, Germany." />
   <link rel="preload" as="image" href="assets/img/hero-bg.svg">
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
   <a class="skip-link" href="#main">Skip to content</a>
+
   <header class="site-header" id="top">
     <div class="container header-inner">
       <div class="brand">
-        <span class="logo" aria-hidden="true">AR</span>
+        <!-- Put your photo inside the logo wrapper -->
+        <span class="logo" aria-hidden="true">
+          <img src="assets/img/alipict.jpeg" alt="Ali Raza" class="avatar">
+        </span>
         <div class="brand-text">
-          <h1>Ali Raza</h1>
+          <h1>ALI RAZA</h1>
           <p class="subtitle">Software Tester (QA Engineer)</p>
         </div>
       </div>
+
       <nav class="nav" aria-label="Primary">
         <button class="nav-toggle" aria-expanded="false" aria-controls="nav-menu" id="navToggle">Menu</button>
         <ul id="nav-menu">
@@ -34,7 +39,7 @@
 
     <section class="hero container">
       <div class="hero-copy">
-        <h2>Delivering high‑quality software through precise testing & automation.</h2>
+        <h2>Delivering high-quality software through precise testing & automation.</h2>
         <p>
           7+ years in manual & automated testing. Specialized in Playwright, Cypress, API testing (Postman),
           and CI/CD pipelines. Based in Berlin, Germany.
@@ -46,7 +51,7 @@
         <div class="socials" aria-label="Social links">
           <a href="mailto:arqureshi.3934@gmail.com" aria-label="Email">✉️</a>
           <a href="https://www.linkedin.com/in/ali-raza9/" aria-label="LinkedIn">in</a>
-          <a href="https://github.com/AliRaza3934" aria-label="GitHub">GH</a>
+          <a href="https://github.com/AliRaza2904" aria-label="GitHub">GH</a>
         </div>
       </div>
       <div class="hero-art">
@@ -117,15 +122,16 @@
       <article class="job">
         <header>
           <h4>Software Tester — ETA+</h4>
-          <span class="timeplace">Aug 2022 – Present • Hamburg, Germany (Remote)</span>
+          <span class="timeplace">Aug 2022 – Present • Hamburg, Germany </span>
         </header>
         <ul class="bullets">
-          <li>Designed and executed manual test cases aligned to acceptance criteria.</li>
-          <li>Built & maintained automated test suites with TypeScript & Playwright.</li>
-          <li>Executed BDD test cases with Cucumber to validate business requirements.</li>
-          <li>Performed API testing with Postman to verify backend integration.</li>
+          <li>Designed and executed manual test cases based on defined acceptance criteria to ensure comprehensive coverage.</li>
+          <li>Developed and maintained a robust Playwright (TypeScript) automation suite to streamline regression testing.</li>
+          <li>Executed test cases aligned with business requirements.</li>
+          <li>Performed API testing using Postman to validate functionality and backend integration.</li>
           <li>Implemented and managed CI/CD pipelines with GitHub Actions.</li>
-          <li>Owned Scrum ceremonies to foster collaboration and delivery.</li>
+          <li>Facilitated Scrum ceremonies to support Agile delivery.</li>
+          <li>Identified, documented, and reported defects with clear repro steps and severity.</li>
         </ul>
       </article>
       <article class="job">
@@ -134,10 +140,10 @@
           <span class="timeplace">Mar 2018 – Jun 2022 • Hyderabad, Pakistan</span>
         </header>
         <ul class="bullets">
-          <li>Created and executed manual test cases to ensure functionality & quality.</li>
-          <li>Generated detailed reports with Mocha Awesome Reporter.</li>
-          <li>Managed and resolved tickets using Jira.</li>
-          <li>Participated in Agile Scrum events, sprint planning and daily stand-ups.</li>
+          <li>Designed and executed manual test cases to validate functionality and quality.</li>
+          <li>Generated detailed test reports with Mocha Awesome Reporter.</li>
+          <li>Managed and resolved tasks/issues tracked through Jira.</li>
+          <li>Collaborated within Agile Scrum teams to deliver iteratively.</li>
         </ul>
       </article>
     </section>
@@ -148,22 +154,22 @@
         <div class="project-text">
           <h4>ETA+ Quality Automation</h4>
           <p>
-            A suite of automated end‑to‑end and API tests designed to validate energy‑data collection and reporting flows.
-            Stack: Playwright (TypeScript), Cucumber (BDD), Postman, GitHub Actions.
+              Developed a fully automated system for generating and publishing availability reports within the ETA+ environment. 
+              The solution eliminates manual intervention by integrating data pipelines, Excel automation, SharePoint uploads, and GitHub workflows—improving operational 
+              visibility and efficiency at scale.
           </p>
           <ul class="tags">
-            <li>Playwright</li><li>TypeScript</li><li>Cucumber</li><li>Postman</li><li>CI/CD</li>
+            <li>Playwright</li><li>TypeScript</li><li>Azure App Registration & Microsoft Graph API</li><li>Python Charts in Excel</li><li>GitHub Integration for CI/CD</li>
           </ul>
         </div>
         <div class="project-media">
-          <!-- Responsive video player with controls and download -->
           <video controls preload="metadata" width="100%" poster="assets/img/video-poster.svg">
             <source src="assets/video/ETAplus_project_demo.mp4" type="video/mp4" />
             Sorry, your browser doesn't support embedded videos. You can
             <a href="assets/video/ETAplus_project_demo.mp4" download>download the video here</a>.
           </video>
           <div class="video-caption">
-            <small>Demo walkthrough of ETA+ QA automation (sample clip).</small>
+            <small>Walkthrough of ETA+ QA automation.</small>
           </div>
         </div>
       </article>
@@ -183,23 +189,12 @@
       <h3>Contact</h3>
       <p>Want to collaborate or discuss a role? Reach out below.</p>
       <form class="contact-form" action="mailto:arqureshi.3934@gmail.com" method="post" enctype="text/plain">
-        <label>
-          Name
-          <input type="text" name="name" required />
-        </label>
-        <label>
-          Email
-          <input type="email" name="email" required />
-        </label>
-        <label>
-          Message
-          <textarea name="message" rows="5" required></textarea>
-        </label>
+        <label> Name <input type="text" name="name" required /> </label>
+        <label> Email <input type="email" name="email" required /> </label>
+        <label> Message <textarea name="message" rows="5" required></textarea> </label>
         <button type="submit" class="btn">Send</button>
       </form>
-      <p class="contact-alt">
-        Prefer email? <a href="mailto:arqureshi.3934@gmail.com">arqureshi.3934@gmail.com</a>
-      </p>
+      <p class="contact-alt">Prefer email? <a href="mailto:arqureshi.3934@gmail.com">arqureshi.3934@gmail.com</a></p>
     </section>
   </main>
 
@@ -213,3 +208,4 @@
   <script src="script.js"></script>
 </body>
 </html>
+
