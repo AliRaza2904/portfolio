@@ -164,20 +164,24 @@
           </ul>
         </div>
         <div class="project-media">
-          <h3>ETAplus Project Demo</h3>
-          <div class="yt-wrap">
-          <iframe
-          src="https://youtu.be/IClotCFODhU?si=WcKW91JRFkn5uI8l"
-          title="ETAplus Project Demo"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          allowfullscreen
-          loading="lazy"
-          referrerpolicy="strict-origin-when-cross-origin"
-          ></iframe>
-          <div class="video-caption">
-            <small>Walkthrough of ETA+ QA automation.</small>
-          </div>
-        </div>
+  <div class="yt-wrap">
+    <iframe
+      src="https://www.youtube-nocookie.com/embed/IClotCFODhU"
+      title="ETAplus Project Demo"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      allowfullscreen
+      loading="lazy"
+      referrerpolicy="strict-origin-when-cross-origin"
+    ></iframe>
+  </div>
+  <div class="video-caption">
+    <small>Walkthrough of ETA+ QA automation. 
+      <a href="https://www.youtube.com/watch?v=IClotCFODhU" target="_blank" rel="noopener">Open on YouTube</a>
+      if the embed is blocked.
+    </small>
+  </div>
+</div>
+
       </article>
     </section>
 
@@ -191,15 +195,41 @@
       </ul>
     </section>
 
+  
+      
+
     <section id="contact" class="section container">
-      <h3>Contact</h3>
+      <h2>Contact</h2>
       <p>Want to collaborate or discuss a role? Reach out below.</p>
-      <form class="contact-form" action="mailto:arqureshi.3934@gmail.com" method="post" enctype="text/plain">
-        <label> Name <input type="text" name="name" required /> </label>
-        <label> Email <input type="email" name="email" required /> </label>
-        <label> Message <textarea name="message" rows="5" required></textarea> </label>
-        <button type="submit" class="btn">Send</button>
-      </form>
+
+      <form id="contactForm" class="contact-form" action="https://formspree.io/f/mvgqlejk" method="POST">
+  <label>
+    Name
+    <input type="text" name="name" required autocomplete="name" />
+  </label>
+
+  <label>
+    Email
+    <input type="email" name="email" required autocomplete="email" />
+  </label>
+
+  <label>
+    Message
+    <textarea name="message" rows="5" required></textarea>
+  </label>
+
+  <input type="hidden" name="_subject" value="Portfolio Contact (Ali Raza)" />
+  <input type="text" name="_gotcha" style="display:none" tabindex="-1" autocomplete="off" />
+
+  <div class="form-actions">
+    <button type="submit" class="btn">Send</button>
+    <button type="button" class="btn btn-ghost" id="clearFormBtn">Clear</button>
+  </div>
+
+  <p id="formStatus" class="form-status" role="status" aria-live="polite"></p>
+</form>
+
+
       <p class="contact-alt">Prefer email? <a href="mailto:arqureshi.3934@gmail.com">arqureshi.3934@gmail.com</a></p>
     </section>
   </main>
